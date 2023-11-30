@@ -24,7 +24,7 @@ imglist* create_list(char* filename) {
 
     compare_extension(filename, ".pgm");
     if (file_exist(filename, "rb") == 0){
-        printf("ERRO: Arquivo inexistente\n");
+        printf("!!!ERRO: Arquivo inexistente\n");
         exit(EXIT_FAILURE);
     }
 
